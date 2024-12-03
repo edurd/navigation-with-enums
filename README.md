@@ -8,7 +8,7 @@ There are many ways to do Navigation in the SwiftUI framework, here I'm going to
 
 First, we are going to have some views in our project, each view will only have the title as a `Text` 
 
-![Screenshot 2024-12-03 at 10.47.16 AM.png](An%20option%20for%20Navigation%20in%20SwiftUI%2015111fdf518180da9270d380aca718e6/Screenshot_2024-12-03_at_10.47.16_AM.png)
+![Screenshot 2024-12-03 at 10.47.16 AM.png](Screenshot_2024-12-03_at_10.47.16_AM.png)
 
 Inside each view we’ll only have this content for now
 
@@ -115,11 +115,11 @@ The `SomeObject` struct should also conforms the `Hashable` protocol in order fo
 
 Our View at the end should look like this
 
-![Screenshot 2024-12-03 at 12.07.07 PM.png](An%20option%20for%20Navigation%20in%20SwiftUI%2015111fdf518180da9270d380aca718e6/Screenshot_2024-12-03_at_12.07.07_PM.png)
+![Screenshot 2024-12-03 at 12.07.07 PM.png](Screenshot_2024-12-03_at_12.07.07_PM.png)
 
 When pressing in one of the buttons, we can be able to move around our views.
 
-![Screenshot 2024-12-03 at 12.08.43 PM.png](An%20option%20for%20Navigation%20in%20SwiftUI%2015111fdf518180da9270d380aca718e6/Screenshot_2024-12-03_at_12.08.43_PM.png)
+![Screenshot 2024-12-03 at 12.08.43 PM.png](Screenshot_2024-12-03_at_12.08.43_PM.png)
 
 We can add other buttons inside our Child Two view to navigate to others Views using the same .navigationDestination, it works because it inheriting the parent `NavigationStack`.
 
@@ -141,4 +141,4 @@ struct ChildTwo: View {
 
 Here if a gif of what we have, you can find the repo here in Github.
 
-![navigation gif.gif](An%20option%20for%20Navigation%20in%20SwiftUI%2015111fdf518180da9270d380aca718e6/navigation_gif.gif)
+![navigation gif.gif](navigation_gif.gif)
