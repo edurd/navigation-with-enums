@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		A498BE082CFF5BC50038C3D0 /* NavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498BE072CFF5BC50038C3D0 /* NavigationApp.swift */; };
-		A498BE0A2CFF5BC50038C3D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498BE092CFF5BC50038C3D0 /* ContentView.swift */; };
+		A498BE0A2CFF5BC50038C3D0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498BE092CFF5BC50038C3D0 /* MainView.swift */; };
 		A498BE0C2CFF5BC70038C3D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A498BE0B2CFF5BC70038C3D0 /* Assets.xcassets */; };
 		A498BE0F2CFF5BC70038C3D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A498BE0E2CFF5BC70038C3D0 /* Preview Assets.xcassets */; };
+		A498BE162CFF5BF90038C3D0 /* ChildOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498BE152CFF5BF90038C3D0 /* ChildOne.swift */; };
+		A498BE182CFF5C000038C3D0 /* ChildTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498BE172CFF5C000038C3D0 /* ChildTwo.swift */; };
+		A498BE1A2CFF5C070038C3D0 /* ChildThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498BE192CFF5C070038C3D0 /* ChildThree.swift */; };
+		A498BE1C2CFF5E680038C3D0 /* NavigationEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498BE1B2CFF5E680038C3D0 /* NavigationEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A498BE042CFF5BC50038C3D0 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A498BE072CFF5BC50038C3D0 /* NavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationApp.swift; sourceTree = "<group>"; };
-		A498BE092CFF5BC50038C3D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A498BE092CFF5BC50038C3D0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A498BE0B2CFF5BC70038C3D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A498BE0E2CFF5BC70038C3D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A498BE152CFF5BF90038C3D0 /* ChildOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildOne.swift; sourceTree = "<group>"; };
+		A498BE172CFF5C000038C3D0 /* ChildTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildTwo.swift; sourceTree = "<group>"; };
+		A498BE192CFF5C070038C3D0 /* ChildThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildThree.swift; sourceTree = "<group>"; };
+		A498BE1B2CFF5E680038C3D0 /* NavigationEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				A498BE072CFF5BC50038C3D0 /* NavigationApp.swift */,
-				A498BE092CFF5BC50038C3D0 /* ContentView.swift */,
+				A498BE092CFF5BC50038C3D0 /* MainView.swift */,
 				A498BE0B2CFF5BC70038C3D0 /* Assets.xcassets */,
+				A498BE152CFF5BF90038C3D0 /* ChildOne.swift */,
+				A498BE172CFF5C000038C3D0 /* ChildTwo.swift */,
+				A498BE192CFF5C070038C3D0 /* ChildThree.swift */,
 				A498BE0D2CFF5BC70038C3D0 /* Preview Content */,
+				A498BE1B2CFF5E680038C3D0 /* NavigationEnum.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A498BE0A2CFF5BC50038C3D0 /* ContentView.swift in Sources */,
+				A498BE1C2CFF5E680038C3D0 /* NavigationEnum.swift in Sources */,
+				A498BE0A2CFF5BC50038C3D0 /* MainView.swift in Sources */,
 				A498BE082CFF5BC50038C3D0 /* NavigationApp.swift in Sources */,
+				A498BE162CFF5BF90038C3D0 /* ChildOne.swift in Sources */,
+				A498BE1A2CFF5C070038C3D0 /* ChildThree.swift in Sources */,
+				A498BE182CFF5C000038C3D0 /* ChildTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
